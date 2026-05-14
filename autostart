@@ -1,0 +1,10 @@
+6. Create the autostart file
+As kiosk user:
+mkdir -p ~/.config/autostart
+nano ~/.config/autostart/kiosk.desktop
+Paste:
+[Desktop Entry]
+Type=Application
+Name=Kiosk
+Exec=/home/kiosk/kiosk.sh
+X-GNOME-Autostart-enabled=true
