@@ -1,0 +1,12 @@
+5. Create the website restriction policy
+As root:
+mkdir -p /etc/chromium/policies/managed/
+nano /etc/chromium/policies/managed/kiosk_policy.json
+
+{
+  "URLAllowlist": ["raspberrypi.com", "*.raspberrypi.com", "www.raspberrypi.com"],
+  "URLBlocklist": ["*"],
+  "BookmarkBarEnabled": false,
+  "DownloadRestrictions": 3,
+  "DeveloperToolsAvailability": 2
+}
