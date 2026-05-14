@@ -1,0 +1,10 @@
+1. Install Chromium
+sudo apt update
+sudo apt install chromium -y
+
+2. Create kiosk user
+adduser kiosk
+
+3. Add kiosk to autologin group
+groupadd -f autologin
+usermod -a -G autologin kiosk
