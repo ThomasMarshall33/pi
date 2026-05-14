@@ -1,0 +1,7 @@
+ Fix keyring popup
+As kiosk user:
+rm ~/.local/share/keyrings/*
+On next boot when it asks to set a keyring password, leave both fields blank and click Continue.
+
+9. Reboot and test
+sudo reboot
