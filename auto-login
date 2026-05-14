@@ -1,0 +1,8 @@
+ Set up auto-login
+As root:
+mkdir -p /etc/lightdm/lightdm.conf.d/
+nano /etc/lightdm/lightdm.conf.d/autologin.conf
+Paste:
+[Seat:*]
+autologin-user=kiosk
+autologin-user-timeout=0
