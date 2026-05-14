@@ -7,3 +7,6 @@ xset -dpms
 xset s noblank
 
 chromium --kiosk --noerrdialogs --disable-infobars --disable-translate --no-first-run --disable-features=TranslateUI --incognito --disable-pinch --overscroll-history-navigation=0 https://www.raspberrypi.com(whatever website)
+
+Make it executable:
+chmod +x ~/kiosk.sh
